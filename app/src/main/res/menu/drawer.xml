@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/id_parks"
+            android:title="Parks"
+            android:icon="@mipmap/ic_park">
+        </item>
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/id_wc"
+            android:title="WC"
+            android:icon="@mipmap/ic_wc">
+        </item>
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/id_play"
+            android:title="Playground"
+            android:icon="@mipmap/ic_play">
+        </item>
+    </group>
+    <group android:id="@+id/grp4">
+        <item
+            android:id="@+id/id_internet"
+            android:title="Access Internet points"
+            android:icon="@mipmap/ic_wifi">
+        </item>
+    </group>
+    <group android:id="@+id/grp5">
+        <item
+            android:id="@+id/id_exit"
+            android:title="Exit"
+            android:icon="@mipmap/ic_exit">
+        </item>
+    </group>
+
+
+</menu>

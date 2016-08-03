@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="unpressed_button">#CFD8DC</color>
+    <color name="pressed_button">#90A4AE</color>
+    <color name="focused_button">#546E7A</color>
+    <color name="applicationBackground">#E0E0E0</color>
+    <color name="itemTextColor_navigationView">#333</color>
+    <color name="itemIconTint_navigationView">#333</color>
+    <color name="textTitleColor">#454545</color>
+</resources>
+
+

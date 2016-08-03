@@ -1,0 +1,57 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/applicationBackground"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_linearLayout_maps_activity"
+            android:orientation="vertical"
+            android:id="@+id/maps_container">
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment" >
+
+                <Button
+                    android:id="@+id/id_details"
+                    android:layout_width="@dimen/button_width_maps_activity"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/button_margin_left_maps_activity"
+                    android:text="@string/id_show_details"
+                    android:background="@drawable/button_selector"/>
+           </fragment>
+        </LinearLayout>
+    </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/NavigationApp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/header"
+            app:itemTextColor="@color/itemTextColor_navigationView"
+            app:itemIconTint="@color/itemIconTint_navigationView"
+            app:menu="@menu/drawer"
+            >
+        </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
+
+
+

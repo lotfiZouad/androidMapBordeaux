@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:padding="@dimen/padding_custom_item_listview"
+        android:id="@+id/logo"
+        android:layout_width="@dimen/custom_item_listview_width"
+        android:layout_height="@dimen/custom_item_listview_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mark"
+        android:contentDescription="logo"/>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/custom_item_linearlayout_margin_left"
+        android:layout_marginStart="@dimen/custom_item_linearlayout_margin_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/custom_item_tv_size"/>
+
+    </LinearLayout>
+
+</LinearLayout>

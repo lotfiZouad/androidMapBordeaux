@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bordeaux Discovery</string>
+    <string name="title_activity_maps">Bordeaux Discovery</string>
+    <string name="id_show_details">Show Details</string>
+    <string name="bordeaux_map">map bordeaux</string>
+
+    <string name="WEB_URL_PARKS">http://odata.bordeaux.fr/v1/databordeaux/parcjardin/?format=json</string>
+    <string name="WEB_URL_INTERNET_ACCESSES">http://odata.bordeaux.fr/v1/databordeaux/sigaccesinternet/?format=json</string>
+    <string name="WEB_URL_PLAYGROUNDS">http://odata.bordeaux.fr/v1/databordeaux/airejeux/?format=json</string>
+    <string name="WEB_URL_TOILETS">http://odata.bordeaux.fr/v1/databordeaux/sigsanitaire/?format=json</string>
+</resources>
